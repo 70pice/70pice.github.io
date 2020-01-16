@@ -5,17 +5,19 @@
   
 
   
-  <title>Hexo</title>
+  <title>70pice的小站</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
+  <meta name="description" content="记录学习与日常">
+<meta property="og:type" content="website">
+<meta property="og:title" content="70pice的小站">
 <meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="Hexo">
+<meta property="og:site_name" content="70pice的小站">
+<meta property="og:description" content="记录学习与日常">
 <meta property="og:locale" content="en_US">
-<meta property="article:author" content="John Doe">
+<meta property="article:author" content="sjb">
 <meta name="twitter:card" content="summary">
   
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+    <link rel="alternate" href="/atom.xml" title="70pice的小站" type="application/atom+xml">
   
   
     <link rel="icon" href="/favicon.png">
@@ -36,7 +38,7 @@
   <div id="header-outer" class="outer">
     <div id="header-title" class="inner">
       <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
+        <a href="/" id="logo">70pice的小站</a>
       </h1>
       
     </div>
@@ -64,6 +66,82 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-hexo的安装" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/01/16/hexo%E7%9A%84%E5%AE%89%E8%A3%85/" class="article-date">
+  <time datetime="2020-01-16T03:44:47.555Z" itemprop="datePublished">2020-01-16</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/01/16/hexo%E7%9A%84%E5%AE%89%E8%A3%85/">第一篇博客-hexo的安装</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <pre><code>这是我第一篇博客，也不在乎是不是markdown的格式，以后再慢慢改进嘛。
+这片被博客记录我如何安装hexo博客。其实我主要参考了两个人的教程。
+
+https://www.jianshu.com/p/e132ee632dec 这篇博客
+https://www.bilibili.com/video/av44544186 程序羊，羊哥的视频讲解
+
+第一步
+下载nodejs
+去官网下载nodejs（https://nodejs.org），下载完安装在哪儿就随你心意了.
+最后成功的的截图如下![enter description here](./images/nodejs.png)
+
+
+第二步
+下载cnmp
+在cmd（最好以管理员身份打开），我是win10的系统用的是windows powershell
+输入命令 npm install -g cnpm --registry=https://registry.npm.taobao.org.
+这一步，是国外的资源访问太慢，所以采用国内的镜像文件
+成功的截图如下![enter description here](./images/cnpm.png)
+
+第三步
+下载hexo
+在windows powershell中输入命令 cnpm install -g hexo-cli
+
+第四步
+开始搭建博客
+在你想要的位置创建目录，以后你的文件基本都在这儿了
+输入hexo init初始化，成功的截图如下
+![enter description here](./images/XHAF$U9A@T9KMO96)TO8V@A.png)
+因为我博客搭建好了，所以会多出一两个文件。
+
+至此博客的搭建已经全部完成了，下载需要做的是，把他部署到远程的服务机上去.采用
+github仓库的方式白嫖.
+
+之后的方式就是对github的操作了。
+我说一下我遇到的小问题
+第一个，没有编辑md文件的编辑器，于是我下了小书匠，其实可以找找看其他的.
+第二个, git的初始化,git一定要初始化！！！不初始化不能用
+git config --global ....啥啥啥的，这是在命令行里面使用，而不是让你编辑到config.md文件中去！！
+第三个，这个格式的文件有点特殊，注意空格！</code></pre>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2020/01/16/hexo%E7%9A%84%E5%AE%89%E8%A3%85/" data-id="ck5g6zsu3000278dgdefub5cz" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%8D%9A%E5%AE%A2%E5%AE%89%E8%A3%85/" rel="tag">博客安装</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-我的第一篇博客文章" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2020/01/16/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/" class="article-date">
@@ -90,7 +168,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/01/16/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/" data-id="ck5g2vp4p0000z0dgh3x30gs4" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2020/01/16/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/" data-id="ck5g6zsu0000178dgezadf1oq" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%88%91%E5%9C%A8%E5%B0%9D%E8%AF%95%E8%83%BD%E5%90%A6%E7%94%A8windows%E8%87%AA%E5%B8%A6%E7%9A%84%E6%96%87%E6%9C%AC%E7%BC%96%E8%BE%91%E5%99%A8%E6%9D%A5%E7%BC%96%E8%BE%91%E8%BF%99%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/" rel="tag">我在尝试能否用windows自带的文本编辑器来编辑这一篇文章</a></li></ul>
@@ -141,7 +219,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/01/16/hello-world/" data-id="ck5g2vp4x0001z0dg9pi7b4hb" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2020/01/16/hello-world/" data-id="ck5g6zstt000078dg20jh0sl7" class="article-share-link">Share</a>
       
       
     </footer>
@@ -164,7 +242,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tags</h3>
     <div class="widget">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%88%91%E5%9C%A8%E5%B0%9D%E8%AF%95%E8%83%BD%E5%90%A6%E7%94%A8windows%E8%87%AA%E5%B8%A6%E7%9A%84%E6%96%87%E6%9C%AC%E7%BC%96%E8%BE%91%E5%99%A8%E6%9D%A5%E7%BC%96%E8%BE%91%E8%BF%99%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/" rel="tag">我在尝试能否用windows自带的文本编辑器来编辑这一篇文章</a></li></ul>
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%8D%9A%E5%AE%A2%E5%AE%89%E8%A3%85/" rel="tag">博客安装</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%88%91%E5%9C%A8%E5%B0%9D%E8%AF%95%E8%83%BD%E5%90%A6%E7%94%A8windows%E8%87%AA%E5%B8%A6%E7%9A%84%E6%96%87%E6%9C%AC%E7%BC%96%E8%BE%91%E5%99%A8%E6%9D%A5%E7%BC%96%E8%BE%91%E8%BF%99%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/" rel="tag">我在尝试能否用windows自带的文本编辑器来编辑这一篇文章</a></li></ul>
     </div>
   </div>
 
@@ -174,7 +252,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      <a href="/tags/%E6%88%91%E5%9C%A8%E5%B0%9D%E8%AF%95%E8%83%BD%E5%90%A6%E7%94%A8windows%E8%87%AA%E5%B8%A6%E7%9A%84%E6%96%87%E6%9C%AC%E7%BC%96%E8%BE%91%E5%99%A8%E6%9D%A5%E7%BC%96%E8%BE%91%E8%BF%99%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/" style="font-size: 10px;">我在尝试能否用windows自带的文本编辑器来编辑这一篇文章</a>
+      <a href="/tags/%E5%8D%9A%E5%AE%A2%E5%AE%89%E8%A3%85/" style="font-size: 10px;">博客安装</a> <a href="/tags/%E6%88%91%E5%9C%A8%E5%B0%9D%E8%AF%95%E8%83%BD%E5%90%A6%E7%94%A8windows%E8%87%AA%E5%B8%A6%E7%9A%84%E6%96%87%E6%9C%AC%E7%BC%96%E8%BE%91%E5%99%A8%E6%9D%A5%E7%BC%96%E8%BE%91%E8%BF%99%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/" style="font-size: 10px;">我在尝试能否用windows自带的文本编辑器来编辑这一篇文章</a>
     </div>
   </div>
 
@@ -196,6 +274,10 @@
       <ul>
         
           <li>
+            <a href="/2020/01/16/hexo%E7%9A%84%E5%AE%89%E8%A3%85/">第一篇博客-hexo的安装</a>
+          </li>
+        
+          <li>
             <a href="/2020/01/16/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/">我的第一篇博客文章</a>
           </li>
         
@@ -215,7 +297,7 @@
   
   <div class="outer">
     <div id="footer-info" class="inner">
-      &copy; 2020 John Doe<br>
+      &copy; 2020 sjb<br>
       Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
